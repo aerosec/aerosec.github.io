@@ -1,0 +1,44 @@
+.people p {
+    font-size: 18px;
+}
+
+.jumbotron {
+    padding-top: 3px;
+    padding-bottom: 10px;
+}
+
+.title-section {
+    padding: 3% 3% 1.5%;
+}
+
+body {
+    /* background: url(../images/sky.jpeg) no-repeat center center fixed; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: black;
+}
+
+.marketing {
+    margin-bottom: 5px;
+}
+
+.section-header {
+    float: left;
+}
+
+.row-content {
+    margin-top: 0;
+}
+
+.row-title {
+    margin-top: 20px;
+}
+
+a[href*="//"]::after {
+    content: url('/images/icon_ext_link.png');
+}
+
+
+/* .footer-row {} */
