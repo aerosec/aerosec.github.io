@@ -75,3 +75,5 @@ jekyll_get:
 
 exclude:
   - script/
+  - Gemfile*
+  - feed.xml
