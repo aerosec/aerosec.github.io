@@ -1,0 +1,13 @@
+- link: "https://cseweb.ucsd.edu/~savage/papers/CSET19.pdf"
+  title: "Triton: A Software-Reconfigurable Federated Avionics Testbed"
+  authors: Sam Crow, Brown Farinholt, Brian Johanessmeyer, Karl Koscher, Stephen Checkoway, Stefan Savage, Aaron Schulman, Alex C. Snoeren and Kirill Levchenko
+  venue: Proceedings of the USENIX Workshop on Cyber Security Experimentation and Test (CSET)
+  location: Santa Clara, CA
+  date: August 2019
+
+- link: "https://cseweb.ucsd.edu/~savage/papers/CCS14MobileCockpit.pdf"
+  title: On The Security of Mobile Cockpit Information Systems
+  authors: Devin Lundberg, Brown Farinholt, Edward Sullivan, Ryan Mast, Stephen Checkoway, Stefan Savage, Alex C. Snoeren, Kirill Levchenko
+  venue: Proceedings of the ACM Conference on Computer and Communications Security (CCS)
+  location: Scottsdale, AZ
+  date: November 2014

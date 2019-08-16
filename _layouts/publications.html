@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " en " }}">
+
+{%- include head.html -%}
+
+<body>
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+        <div class="wrapper">
+            {{ content }} 
+            {%- if site.data.publications.size > 0 -%} 
+                {%- for publication in site.data.publications -%}
+                    <div>
+                        <h3>
+                            <a href="{{ publication.link }}" target="_blank">{{ publication.title }}</a>
+                        </h3>
+                        <p>
+                            {{ publication.authors }}. {{ publication.venue }}, {{ publication.location }}, {{ publication.date }}.
+                        </p>
+                    </div>
+                {%- endfor -%} 
+            {%- endif -%}
+        </div>
+    </main>
+
+    {%- include footer.html -%}
+
+</body>
+
+</html>
