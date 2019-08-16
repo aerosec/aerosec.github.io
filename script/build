@@ -3,4 +3,4 @@
 set -e
 
 echo "Building the example site..."
-JEKYLL_ENV=production bundle exec jekyll build --destination site
+bundle exec jekyll build
