@@ -25,12 +25,15 @@
     link: "https://cseweb.ucsd.edu/~snoeren/"
     affiliation: UC San Diego
 
-- title: Postdocs
+- title: Research Scientists
   members:
   - name: Karl Koscher
     img: "/assets/images/people/karl_koscher.jpg"
-    link: "https://www.sysnet.ucsd.edu/~supersat/"
+    link: "https://homes.cs.washington.edu/~supersat/"
     affiliation: UW
+
+- title: Postdocs
+  members:
 
 - title: Research Staff
   members:
