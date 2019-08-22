@@ -1,19 +1,15 @@
 language: ruby
 cache: bundler
-# rvm:
-#   - 2.6
-#   - 2.4
 branches:
   only:
   - release
-before_install: gem update --system
-install: script/bootstrap
-# script: script/cibuild
+before_install:
+  - gem update --system
 script:
-  - JEKYLL_ENV=production bundle exec jekyll build --destination site
+  - JEKYLL_ENV=production bundle exec jekyll build
 deploy:
   provider: pages
-  local-dir: ./site
+  local-dir: ./_site
   target-branch: master
   email: deploy@travis-ci.org
   name: Deployment Bot
@@ -22,8 +18,3 @@ deploy:
   keep-history: true
   on:
     branch: release
-# env:
-#   matrix:
-#     - JEKYLL_VERSION="~> 3.5"
-#     - JEKYLL_VERSION="~> 3.8.0"
-#     - JEKYLL_VERSION=">= 4.0.0.pre.alpha1"
