@@ -8,7 +8,6 @@ permalink: /people/
 # {{ i.title }}
 {%- for j in i.members %}
 [{{ j.name }}]({{ j.link }}), {{ j.affiliation }}
-
 {% endfor -%}
 {%- endif -%}
 {%- endfor -%}
