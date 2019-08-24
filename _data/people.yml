@@ -50,7 +50,7 @@
     affiliation: UIUC
 
   - name: Sam Crow
-    img: "/assets/images/people/sam_crow.jpg"
+    img: 
     link: "https://www.sysnet.ucsd.edu/~scrow/"
     affiliation: UC San Diego
 
@@ -60,15 +60,15 @@
     affiliation: Vrije Universiteit Amsterdam
 
   - name: Evan Johnson
-    img: ""
-    link: ""
+    img:
+    link:
     affiliation: UC San Diego
 
 - title: Masters Students
   members:
   - name: Paul Emge
-    img: ""
-    link: ""
+    img:
+    link:
     affiliation: UIUC
 
 - title: Undergraduate Students
@@ -77,7 +77,7 @@
 - title: Alumni
   members:
   - name: Leon Cheung
-    img: ""
+    img:
     link: "https://leoncheung.com/"
     affiliation: UC San Diego
 
@@ -87,31 +87,31 @@
     affiliation: UC San Diego
 
   - name: Anne Huang
-    img: ""
+    img:
     link: "https://www.linkedin.com/in/huanganne"
     affiliation: UIC
 
   - name: Brian Kantor
-    img: ""
+    img:
     link: "https://www.sysnet.ucsd.edu/~brian/"
     affiliation: UC San Diego
 
   - name: Devin Lundberg
-    img: ""
+    img:
     link: "https://www.devinlundberg.com/"
     affiliation: UC San Diego
 
   - name: Ryan Mast
-    img: ""
+    img:
     link: "https://www.linkedin.com/in/rmast"
     affiliation: UC San Diego
 
   - name: Edward Sullivan
-    img: ""
+    img:
     link: "https://www.edrawd.com/"
     affiliation: UC San Diego
 
   - name: Arun Swarnam
-    img: ""
+    img:
     link: "https://www.linkedin.com/in/arun-valliappan-swarnam-57b856112"
     affiliation: UIC
