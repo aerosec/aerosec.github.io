@@ -1,8 +1,7 @@
 .people-box {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(160px, auto));
-    align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .people-box div {
