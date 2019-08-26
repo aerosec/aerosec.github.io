@@ -1,6 +1,7 @@
 ---
-layout: home
-# title: About
+layout: default
+title: About
 permalink: /
 ---
-Aerosec is a collaboration between researchers at <a href="https://cse.ucsd.edu/" target="_blank">University of California, San Diego</a>, <a href="https://cs.illinois.edu/" target="_blank">University of Illinois</a>, <a href="https://www.cs.oberlin.edu/" target="_blank">Oberlin College</a>, and <a href="https://www.cs.washington.edu/" target="_blank">University of Washington</a>. Our research mission is to help ensure the security, privacy, and safety of future aerospace embedded systems.
+
+Aerosec is a collaboration between researchers at [University of California, San Diego](https://cse.ucsd.edu/), [University of Illinois](https://cs.illinois.edu/), [Oberlin College](https://www.cs.oberlin.edu/), and [University of Washington](https://www.cs.washington.edu/). Our research mission is to help ensure the security, privacy, and safety of future aerospace embedded systems.

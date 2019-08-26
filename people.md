@@ -5,9 +5,12 @@ permalink: /people/
 ---
 {%- for i in site.data.people -%}
 {%- if i.members.size > 0 -%}
-# {{ i.title }}
-{%- for j in i.members %}
-[{{ j.name }}]({{ j.link }}), {{ j.affiliation }}
-{% endfor -%}
+## {{ i.title }}
+<div class="people-box">
+{%- for j in i.members -%}
+{% assign img = j.img | default: "/assets/images/people/null.jpg" %}
+{%- include person.html img=img name=j.name link=j.link affiliation=j.affiliation -%}
+{%- endfor -%}
+</div>
 {%- endif -%}
 {%- endfor -%}
