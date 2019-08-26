@@ -1,0 +1,21 @@
+.people-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, auto));
+}
+
+.people-box div {
+    padding: 10px;
+}
+
+.people-box div figcaption {
+    text-align: center;
+}
+
+.logo-box {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.logo-box div {
+    padding: 10px;
+}

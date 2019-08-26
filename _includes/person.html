@@ -1,11 +1,9 @@
-<td style="width: 25%; border: none; background: none;">
-    <div>
-        <figure class="figure">
-            <img src="{{include.img}}" class="figure-img img-fluid img-responsive img-circle center-block" alt="{{include.name}}" >
-            <figcaption class="figure-caption text-center">
-                <a href="{{include.link}}" target="_blank">
-                    {{include.name}}
-                </a><br/>{{include.affiliation}}</figcaption>
-        </figure>
-    </div>
-</td>
+<div>
+    <figure>
+        <img src="{{include.img}}" alt="{{include.name}}">
+        <figcaption>
+            <a href="{{include.link}}" target="_blank">
+                {{include.name}}
+            </a><br/>{{include.affiliation}}</figcaption>
+    </figure>
+</div>
