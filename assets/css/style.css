@@ -310,7 +310,7 @@ table td { border: 1px solid #e8e8e8; }
 
 .people-box div { padding: 10px; }
 
-.people-box div figcaption { text-align: center; }
+.people-box figcaption { text-align: center; }
 
 .logo-box { display: grid; grid-template-columns: auto auto auto auto; }
 
