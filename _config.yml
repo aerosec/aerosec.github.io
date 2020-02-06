@@ -63,7 +63,6 @@ minima:
 theme: minima
 
 plugins:
-#  - jekyll-feed
  - jekyll-seo-tag
 
 plugins_dir: ./_plugins

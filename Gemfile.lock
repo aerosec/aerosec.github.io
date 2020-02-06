@@ -79,7 +79,6 @@ PLATFORMS
 
 DEPENDENCIES
   hash-joiner
-  jekyll-feed (~> 0.6)
   json
   minima
   tzinfo (~> 1.2)
@@ -87,4 +86,4 @@ DEPENDENCIES
   wdm (~> 0.1.0)
 
 BUNDLED WITH
-   2.0.0
+   2.0.2
