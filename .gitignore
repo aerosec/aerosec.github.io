@@ -1,8 +1,9 @@
-_site
-.sass-cache
-.jekyll-metadata
-.DS_store
-.ruby-version
-.bundle
 *.gem
-.jekyll-cache
+.DS_store
+/_vendor
+/_site
+/.sass-cache
+/.jekyll-metadata
+/.ruby-version
+/.bundle
+/.jekyll-cache
