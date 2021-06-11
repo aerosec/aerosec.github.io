@@ -1,3 +1,10 @@
+- link: "https://www.usenix.org/system/files/sec21fall-johnson.pdf"
+  title: "Jetset: Targeted Firmware Rehosting for Embedded Systems"
+  authors: Evan Johnson, Maxwell Bland, YiFei Zhu, Joshua Mason, Stephen Checkoway, Stefan Savage, Kirill Levchenko
+  venue: 30th USENIX Security Symposium (USENIX Security 21)
+  location: Remote
+  date: August 2021
+
 - link: "https://cseweb.ucsd.edu/~savage/papers/CSET19.pdf"
   title: "Triton: A Software-Reconfigurable Federated Avionics Testbed"
   authors: Sam Crow, Brown Farinholt, Brian Johanessmeyer, Karl Koscher, Stephen Checkoway, Stefan Savage, Aaron Schulman, Alex C. Snoeren and Kirill Levchenko
