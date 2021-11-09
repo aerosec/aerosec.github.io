@@ -73,8 +73,7 @@ jekyll_get:
     cache: false
 
 exclude:
-  - script/
+  - README.md
   - Gemfile*
-  - feed.xml
   - vendor/
   - tags
