@@ -1,7 +1,7 @@
 name: CI
 on:
   push:
-    branches: [release]
+    branches: [main]
   pull_request:
     types: [opened, synchronized]
     branches: ['*']
@@ -28,8 +28,8 @@ jobs:
           rm -f ./_site/feed.xml
 
       - name: Deploy
-        if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/release' }}
-        uses: JamesIves/github-pages-deploy-action@4.1.4
+        if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+        uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
-          branch: master
+          branch: gh-pages
           folder: _site
