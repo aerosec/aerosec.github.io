@@ -305,7 +305,7 @@ table td { border: 1px solid #e8e8e8; }
 
 .people-box figcaption { text-align: center; }
 
-.logo-box { display: grid; grid-template-columns: auto auto auto auto; }
+.logo-box { display: flex; flex-direction: row; }
 
 .logo-box div { padding: 10px; }
 
