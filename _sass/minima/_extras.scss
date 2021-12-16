@@ -13,8 +13,8 @@
 }
 
 .logo-box {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+    display: flex;
+    flex-direction: row;
 }
 
 .logo-box div {
