@@ -1,3 +1,7 @@
+@charset "utf-8";
+
+@use "common" as *;
+
 .people-box {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(160px, auto));
