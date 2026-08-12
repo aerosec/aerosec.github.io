@@ -1,3 +1,10 @@
+- link: "/papers/busdriver.pdf"
+  title: "Design and Implementation of a Physical Implant Attack on the Boeing 737"
+  authors: Sam Crow, Stephen Checkoway, Patrick Mercier, Pat Pannuto, Stefan Savage, and Aaron Schulman
+  venue: Proceedings of the USENIX Security Symposium (USENIX Security 26)
+  location: Baltimore, MD
+  date: August 2026
+
 - link: "https://www.usenix.org/system/files/sec21fall-johnson.pdf"
   title: "Jetset: Targeted Firmware Rehosting for Embedded Systems"
   authors: Evan Johnson, Maxwell Bland, YiFei Zhu, Joshua Mason, Stephen Checkoway, Stefan Savage, Kirill Levchenko
